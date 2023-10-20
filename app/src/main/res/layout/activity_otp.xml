@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primaryColor"
+    android:layout_height="match_parent"
+    tools:context=".LoginModule.OtpActivity">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:text="OTP Verification"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:layout_height="30dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/otp_verification_iamge"
+            android:background="@color/primaryColor"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/primaryColor"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/enter_your_otp_text_view"
+            android:background="@color/primaryColor"
+            android:hint="Enter Your OTP"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resend_otp_text"
+        android:background="@drawable/edittext_shape"
+        android:layout_marginStart="300dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:text="resend OTP"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/otp_continue_button"
+        android:text="Continue"
+        android:textColor="@color/text_feild_white"
+        android:background="@drawable/button_rectangle"
+        android:layout_marginEnd="30dp"
+        />
+
+
+
+
+
+
+</LinearLayout>

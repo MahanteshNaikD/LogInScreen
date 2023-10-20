@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/button_color_blue"></solid>
+    <corners android:radius="10dp"></corners>
+
+    <stroke android:color="@color/black"/>
+
+
+    <gradient
+        android:startColor="#6D56A3"
+        android:centerColor="#FFBB86FC"
+        android:endColor="#6D56A3"
+        android:angle="180"/>
+
+
+</shape>

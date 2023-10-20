@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragMent2">
+
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.mahantesh.loginscreen.MapModule.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps">
+        <action
+            android:id="@+id/action_mapsFragment_to_settingfragment"
+            app:destination="@id/settingfragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragMent2"
+        android:name="com.mahantesh.loginscreen.fragMents.HomeFragMent"
+        android:label="fragment_home_frag_ment2"
+        tools:layout="@layout/fragment_home_frag_ment2">
+        <action
+            android:id="@+id/action_homeFragMent2_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingfragment"
+        android:name="com.mahantesh.loginscreen.fragMents.Settingfragment"
+        android:label="fragment_settingfragment"
+        tools:layout="@layout/fragment_settingfragment" />
+</navigation>

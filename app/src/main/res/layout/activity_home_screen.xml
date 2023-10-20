@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/primaryColor"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".homeScreen">
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+
+        android:id="@+id/barCodeScanner"
+        android:textColor="@color/primaryColor"
+        android:background="@drawable/button_rectangle"
+        android:text="BarCode Scanner"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/netWorkCheck"
+        android:textColor="@color/primaryColor"
+        android:background="@drawable/button_rectangle"
+        android:text="NetWork State"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/photoCaptureActivity"
+        android:textColor="@color/primaryColor"
+        android:background="@drawable/button_rectangle"
+        android:text="Photo Capture Activity"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/lineGraphActivity"
+        android:textColor="@color/primaryColor"
+        android:background="@drawable/button_rectangle"
+        android:text="line graph Activity"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/paginationActivity"
+        android:textColor="@color/primaryColor"
+        android:background="@drawable/button_rectangle"
+        android:text="Pagination Activity"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/carousel_activity"
+        android:textColor="@color/primaryColor"
+        android:background="@drawable/button_rectangle"
+        android:text="carousel Activity"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/bluetooth_activity"
+        android:textColor="@color/primaryColor"
+        android:background="@drawable/button_rectangle"
+        android:text="Bluetooth Activity"/>
+
+
+
+
+
+</LinearLayout>
